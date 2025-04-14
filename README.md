@@ -10,6 +10,8 @@ Before starting, ensure you have Python installed on your system. Then, install 
 
 Open the Parking lot dataset folder and open the "data.yaml" and paste the location for the 'train', 'val' and 'test'. Paste the location of only the images folder from the respective directory
 
+An example data.yaml file is provided for reference
+
 ### Installation
 
 ```bash
