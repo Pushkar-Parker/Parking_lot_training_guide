@@ -8,6 +8,8 @@ This repository provides the steps and tools necessary to train a deep learning 
 
 Before starting, ensure you have Python installed on your system. Then, install the required Python libraries using the provided `requirements.txt` file.
 
+Open the Parking lot dataset folder and open the "data.yaml" and paste the location for the 'train', 'val' and 'test'. Paste the location of only the images folder from the respective directory
+
 ### Installation
 
 ```bash
