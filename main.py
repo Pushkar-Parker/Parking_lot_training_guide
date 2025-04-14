@@ -34,17 +34,16 @@ def train_model(model: str, # the model path
     )
 
 if __name__ == '__main__':
-    model_path = input("Enter the model path: ")
-    yaml_path = input("Enter the path for .yaml file path: ")
-    epochs_num = int(input("Enter the number of epochs: "))
-    save_path = input("Enter the save path for results: ")
-    experiment_name = input("Enter the name for experiment: ")
     
+    epochs = int(input("Enter number of epochs: "))
+    save_path = input("Enter the save path: ")
+    exp_name = input("Enter experiment name: ")
+
     train_model(
-        model=model_path,
-        data=yaml_path,
-        epochs=epochs_num,
+        model=r'yolo11n.pt',
+        data=r"PKLot.v1-raw.yolov8\data.yaml",
+        epochs=epochs,
         img_size=640,
         save_path=save_path,
-        experiment=experiment_name
+        experiment=exp_name
     )
