@@ -6,11 +6,11 @@ This repository provides the steps and tools necessary to train a deep learning 
 
 ## Prerequisites
 
-Before starting, ensure you have Python installed on your system. Then, install the required Python libraries using the provided `requirements.txt` file.
+1. Ensure you have Python installed on your system. Then, install the required Python libraries using the provided `requirements.txt` file.
 
-Open the Parking lot dataset folder and open the "data.yaml" and paste the location for the 'train', 'val' and 'test'. Paste the location of only the images folder from the respective directory
+2. Open the Parking lot dataset folder and open the "data.yaml" and paste the location for the 'train', 'val' and 'test'. Paste the location of only the images folder from the respective directory. A data.yaml file is provided for reference
 
-An example data.yaml file is provided for reference
+3. Keep all the files in this repository and the main dataset in the same folder
 
 ### Installation
 
