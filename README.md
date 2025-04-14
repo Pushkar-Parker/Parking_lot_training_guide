@@ -20,10 +20,25 @@ pip install -r requirements.txt
 
 Once the required dependencies are installed, you're ready to launch the training process.
 
-### Run the main script
+### Step 1: Run the main script
 
 You can run the training script from your favorite Python IDE (such as VSCode, PyCharm) or directly from the terminal:
 
 ```bash
 python main.py
 ```
+
+### Step 2: Provide Training Parameters
+
+After running `main.py`, you will be prompted to input the following parameters:
+
+1. **Number of Epochs**  
+   Enter training epochs.
+
+2. **Save Path**  
+   Enter the save path.
+
+3. **Experiment Name**  
+   Enter a experment name for reference.
+
+---
