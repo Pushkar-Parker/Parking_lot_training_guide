@@ -1,0 +1,2 @@
+torchvision==0.20.1+cu124
+ultralytics==8.3.61
